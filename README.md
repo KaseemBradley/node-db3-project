@@ -57,17 +57,6 @@ Write db access functions in `api/schemes/scheme-model.js` following the instruc
 - Schedule time to review, refine, and assess your work.
 - Perform basic professional polishing including spell-checking and grammar-checking on your work.
 
-## Task 3: Multi Table Queries
-
-Use a graphical tool like SQLite Studio to open `./data/northwind.db3` and execute the following queries:
-
-(Write the queries inside `./queries.sql` under the corresponding comment)
-
-- Display the ProductName and CategoryName for all products in the database. Returns 77 records.
-- Display the order Id and shipper CompanyName for all orders placed before August 9 2012. Returns 429 records.
-- Display the name and quantity of the products ordered in order with Id 10251. Sort by ProductName. Returns 3 records.
-- Display the OrderID, customer's Company Name and the employee's Last Name for every order. All columns should be labeled clearly. Returns 16,789 records.
-
 ## Task 4: Stretch Problems
 
 In [SQL Try Editor at W3Schools.com](https://www.w3schools.com/Sql/tryit.asp?filename=trysql_select_top):
